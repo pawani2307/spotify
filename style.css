@@ -1,0 +1,117 @@
+body {
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 100px;
+    background-color:black ;
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand img {
+    width: 96px;
+    padding: 0, 8px;
+}
+.brand {
+    display: flex;
+    align-items: centre;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.btn{
+    padding: 4px 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    background-color:rgb(19, 100, 71) ;
+}
+.container{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 40px 70px;
+    border-radius: 32px;
+    padding: 34px;  
+    background-image: url(https://i.ibb.co/y6S43yx/bg1.jpg);
+    background-position-x: center;
+    background-position-y: center;
+}
+.bottom{
+    position: relative;
+    height: 130px;
+    background-color: black;
+    color: white;  
+    bottom: -211px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+}
+.songItemContainer{
+   margin-top: 74px; 
+   width: 70%;
+}
+.songItem{
+    height:100%;
+    display: flex;
+    background-color: white;
+    width: 50% ;
+    color: black;
+    margin: 22px,20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 1em;
+    border-color: black;
+}
+.songItem img{
+    width: 35px;
+    margin: 10px 23px;
+    border-radius: 23px;
+}
+.timestamp{
+    margin: 0 23px;   
+}
+.timestamp i{
+    cursor: pointer;
+}
+#myProgressBar{
+    bottom: 0px;
+    width: 1195px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 0;
+}
+.songInfo{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
